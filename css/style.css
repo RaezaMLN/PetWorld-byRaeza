@@ -1,0 +1,173 @@
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 32px;
+  font-size: 18px;
+}
+.white {
+  background-color: #ffffff;
+}
+
+.hero-tagline {
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.btn-Sign-up {
+  background-color: transparent;
+  border: none;
+  width: 60px;
+  font-size: 10px;
+}
+
+.btn-Log-in {
+  height: 30px;
+  border-radius: 10px;
+  width: 60px;
+  font-size: 10px;
+}
+
+.btn-get-started {
+  width: 203px;
+  height: 64px;
+  background: #dfbf70;
+  border-radius: 10px;
+}
+
+.text-center {
+  text-align: center;
+  font-size: 18px;
+}
+
+.semi-bold {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 32px;
+  color: #2d2d2d;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.hidden:hover + .hide {
+  visibility: visible;
+}
+
+.sponsor {
+  width: 20%;
+}
+
+.tombol {
+  width: 225px;
+}
+
+.mas-bewok {
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .hero-tagline {
+    font-size: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .mas-bewok {
+    width: auto;
+  }
+
+  .posisi {
+    margin-left: auto;
+  }
+
+  .btn-Log-in {
+    height: 45px;
+    width: 100px;
+    font-size: 18px;
+  }
+  .btn-Sign-up {
+    width: 100px;
+    font-size: 18px;
+  }
+  .hero-tagline {
+    text-align: start;
+    font-size: 50px;
+  }
+
+  .hide {
+    visibility: visible;
+  }
+
+  .link {
+    font-size: 15px;
+  }
+  .semi-bold {
+    font-size: 15px;
+  }
+
+  .field {
+    height: 38px;
+    width: 200px;
+  }
+  .social-media {
+    padding-left: 60px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mas-bewok {
+    margin-right: 10%;
+  }
+  .social-media {
+    padding-left: 200px;
+  }
+
+  .link {
+    font-size: 18px;
+  }
+  .semi-bold {
+    font-size: 18px;
+  }
+
+  .field {
+    height: 38px;
+    width: 300px;
+  }
+  .btn-send {
+    width: 150px;
+  }
+  .hero-tagline {
+    text-align: start;
+    font-size: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mas-bewok {
+    width: 100%;
+  }
+  .social-media {
+    padding-left: 300px;
+  }
+
+  .btn-send {
+    width: 150px;
+    margin-right: 30px;
+  }
+  .padd {
+    padding-right: 10px;
+  }
+}
